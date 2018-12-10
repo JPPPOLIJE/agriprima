@@ -36,10 +36,10 @@
 
 	{call_hook|assign:"leftSidebarCode" name="Templates::Common::LeftSidebar"}
 	{call_hook|assign:"rightSidebarCode" name="Templates::Common::RightSidebar"}
-<!-- 	{if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/sidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/leftSidebar.css" type="text/css" />{/if}
-	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/rightSidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/bothSidebars.css" type="text/css" />{/if} -->
+	{if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />{/if}
+	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/leftSidebar.css" type="text/css" />{/if}
+	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/rightSidebar.css" type="text/css" />{/if}
+	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/bothSidebars.css" type="text/css" />{/if}
 
 	<!-- Base Jquery -->
 	{if $allowCDN}<script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -84,7 +84,6 @@
 <body id="pkp-{$pageTitle|replace:'.':'-'}" class="article">
 
 <div id="container">
-{include file="common/navbar.tpl"}
 <div id="header">
 <div id="headerTitle">
 <figure>
@@ -111,6 +110,7 @@
 </h1>
 </div>
 </div>
+{include file="common/navbar.tpl"}
 
 <div id="body">
 
