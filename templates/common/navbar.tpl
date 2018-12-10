@@ -35,7 +35,7 @@
 		{/if}
 
 		{if $currentJournal && $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
-			
+			<li id="current"><a href="{url page="issue" op="current"}">{translate key="navigation.current"}</a></li>
 			<li id="archives"><a href="{url page="issue" op="archive"}">{translate key="navigation.archives"}</a></li>
 		{/if}
 
@@ -100,7 +100,7 @@
 				<li class="navItem" id="navItem-{$navItemKey|escape}"><a href="{if $navItem.isAbsolute}{$navItem.url|escape}{else}{$baseUrl}{$navItem.url|escape}{/if}">{if $navItem.isLiteral}{$navItem.name|escape}{else}{translate key=$navItem.name}{/if}</a></li>
 			{/if}
 		{/foreach}
-		<li>{include file="common/search.tpl"}</li>
+		<li>{include file="common/language.tpl"}</li>
 	</ul>
 </div>
 
