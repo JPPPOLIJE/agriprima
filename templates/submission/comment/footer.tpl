@@ -14,7 +14,7 @@
 </div>
 <div id="pageFooter">
 <div id="standardFooter">
-	<a href="http://www.polije.ac.id">
+	<a href="https://www.polije.ac.id">
 			<img src="{$baseUrl}/plugins/themes/agriprima/img/footer.png" alt="Politeknik Negeri Jember"/>
 		</a>
 	</div>
