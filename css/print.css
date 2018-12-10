@@ -1,7 +1,7 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* Adapted from Eric Meyer, Going to Print (http://alistapart.com/article/goingtoprint) */
+/* Adapted from Eric Meyer, Going to Print (https://alistapart.com/article/goingtoprint) */
 @media print {
   body {
     background: white;
