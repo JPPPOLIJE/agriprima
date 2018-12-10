@@ -29,13 +29,13 @@
 {/if}
 {call_hook name="Templates::Common::Footer::PageFooter"}
 	<div id="standardFooter">
-		{if $issn}
-			<p>ISSN: {$issn}</p>
-		{/if}		
-		<p>Managed by <a href="https://jpp.polije.ac.id">Departement of Agricultural Sciences</a>, Published by <a href="https://www.polije.ac.id">State Polytechnic of Jember</a>.</p>
 		<a href="https://agriprima.polije.ac.id">
 			<img src="{$baseUrl}/plugins/themes/agriprima/img/footer.png" alt="Politeknik Negeri Jember"/>
 		</a>
+		{if $issn}
+			<p>ISSN: {$issn}</p>
+		{/if}		
+		<p>Managed by <a href="https://jpp.polije.ac.id">Departement of Agricultural Productions</a>, Published by <a href="http://www.polije.ac.id">State Polytechnic of Jember</a>.</p>
 	</div>
 {/strip}
 <script type="text/javascript" src="{$baseUrl}/plugins/themes/agriprima/js/menu.js"></script>
