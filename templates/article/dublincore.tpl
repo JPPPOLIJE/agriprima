@@ -8,7 +8,7 @@
  * Dublin Core metadata elements for articles.
  *
  *}
-<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
 
 {* DC.Contributor.PersonalName (reviewer) *}
 {if $article->getSponsor(null)}{foreach from=$article->getSponsor(null) key=metaLocale item=metaValue}
