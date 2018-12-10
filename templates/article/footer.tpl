@@ -19,16 +19,16 @@
 		<br />
 		<br />
 		<div class="addthis_container">
-			<a href="http://www.addthis.com/bookmark.php"
+			<a href="https://www.addthis.com/bookmark.php"
 				onmouseover="return addthis_open(this, '', '{$sharingArticleURL|escape:"javascript"}', '{$sharingArticleTitle|escape:"javascript"}')"
 				onmouseout="addthis_close()" onclick="return addthis_sendto()">
 					<img src="{$sharingButtonUrl}" width="{$sharingButtonWidth}" height="{$sharingButtonHeight}" border="0" alt="Bookmark and Share" style="border:0;padding:0" />
 			</a>
-			<script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>
+			<script type="text/javascript" src="https://s7.addthis.com/js/200/addthis_widget.js"></script>
 		</div>
 	{else}
-		<a href="http://www.addthis.com/bookmark.php"
-			onclick="window.open('http://www.addthis.com/bookmark.php?pub={$sharingUserName|escape:"url"}&amp;url={$sharingRequestURL|escape:"url"}&amp;title={$sharingArticleTitle|escape:"url"}', 'addthis',
+		<a href="https://www.addthis.com/bookmark.php"
+			onclick="window.open('https://www.addthis.com/bookmark.php?pub={$sharingUserName|escape:"url"}&amp;url={$sharingRequestURL|escape:"url"}&amp;title={$sharingArticleTitle|escape:"url"}', 'addthis',
 			                     'scrollbars=yes,menubar=no,width=620,height=520,resizable=yes,toolbar=no,location=no,status=no');
 			         return false;"
 			title="Bookmark using any bookmark manager!" target="_blank">
@@ -61,7 +61,7 @@
 		{if $issn}
 			<p>ISSN: {$issn}</p>
 		{/if}
-		<p>Managed by <a href="https://jpp.polije.ac.id">Departement of Agricultural Sciences</a>, Published by <a href="http://www.polije.ac.id">State Polytechnic of Jember</a>.</p>
+		<p>Managed by <a href="https://jpp.polije.ac.id">Departement of Agricultural Sciences</a>, Published by <a href="https://www.polije.ac.id">State Polytechnic of Jember</a>.</p>
 	</div>
 </div>
 <script type="text/javascript" src="{$baseUrl}/plugins/themes/agriprima/js/menu.js"></script>
