@@ -79,7 +79,7 @@
 {if $isSiteAdmin}
 	<li><a href="{url journal="index" page=$isSiteAdmin->getRolePath()}">{translate key=$isSiteAdmin->getRoleName()}</a></li>
 {/if}
-<li><a href="http://pkp.sfu.ca/ojs">{translate key="common.openJournalSystems"}</a></li>
+<li><a href="https://pkp.sfu.ca/ojs">{translate key="common.openJournalSystems"}</a></li>
 <li><a href="javascript:openHelp('{url journal="index" page="help"}')">{translate key="help.help"}</a></li>
 </ul>
 </div>
