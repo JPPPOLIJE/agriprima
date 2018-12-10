@@ -52,7 +52,7 @@
 		{/foreach}
 	</ul>
 
-{include file="common/search.tpl"}
+{include file="common/language.tpl"}
 </div> <!-- End Full Nav -->
 </div>
 
