@@ -960,6 +960,10 @@ ul.navMenu li:hover{
   width:100%;
 }
 
+#standardFooter{
+  color:lightgreen;
+}
+
 #footer-contacttitle{
   width:20%;
   float:left;
