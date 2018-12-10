@@ -52,10 +52,10 @@
 
 	{call_hook|assign:"leftSidebarCode" name="Templates::Common::LeftSidebar"}
 	{call_hook|assign:"rightSidebarCode" name="Templates::Common::RightSidebar"}
-	<!-- {if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/sidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/leftSidebar.css" type="text/css" />{/if}
-	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/rightSidebar.css" type="text/css" />{/if}
-	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/styles/bothSidebars.css" type="text/css" /> {/if}-->
+	{if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />{/if}
+	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/leftSidebar.css" type="text/css" />{/if}
+	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/rightSidebar.css" type="text/css" />{/if}
+	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/bothSidebars.css" type="text/css" /> {/if}
 
 	<!-- Default global locale keys for JavaScript -->
 	{include file="common/jsLocaleKeys.tpl" }
@@ -132,7 +132,6 @@
 </head>
 <body id="pkp-{$pageTitle|replace:'.':'-'}">
 <a id="skip-to-content" href="#main">Skip to Main Content</a>
-{include file="common/navbar.tpl"}
 
 <div id="container">
 <div id="header" role="banner">
@@ -162,6 +161,7 @@
 </h1>
 </div>
 </div>
+{include file="common/navbar.tpl"}
 
 <div id="body">
 
