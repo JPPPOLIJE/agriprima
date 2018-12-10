@@ -18,6 +18,6 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- Add theme style sheet -->
-<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />
+<!--<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />-->
 <link href="{$baseUrl}/plugins/themes/agriprima/css/print.css" media="print" rel="stylesheet" type="text/css" />
 
