@@ -2,7 +2,7 @@
 
 *Curenly in BETA Ver.*
 
-Responsive & modern theme Untuk OJS Ver.2.4.8-3, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](http://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
+Responsive & modern theme Untuk OJS Ver.2.4.8-3, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
 
 ## How to Install
 
