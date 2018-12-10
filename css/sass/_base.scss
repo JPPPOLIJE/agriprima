@@ -1,0 +1,87 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/typography/vertical_rhythm";
+@import "compass/typography/lists/horizontal-list";
+@import "compass/typography/links";
+@import "compass/utilities/tables";
+@import "compass/css3/box-shadow";
+@import "susy";
+
+
+$susy: (
+  columns: 12,  // The number of columns in your grid
+  gutters: 1/4, // The size of a gutter in relation to a single column
+  container: 1080px,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+
+/*  Colors
+================== */
+
+$primary: #006633; // mason green
+$accent-bold: #07355E; // blue
+$accent-light: #1EB568;  // light green
+$accent-bright: #266BA8; // light blue
+$accent-contrast: #FF6C3E; // orange
+
+$grey-bold: #87908F;
+$grey-light: #D1D3D5;
+
+$background: #E4E6D7;
+
+
+/* Fonts
+================== */
+
+$font-main: "PT Sans", Helvetica, sans-serif;
+$font-heading: Lato, Trabuchet, sans-serif;
+
+/* Rhythm
+=================== */
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+
+/* Mixins
+==================== */
+
+.roundedborder {
+	@include border-radius (4px);
+	border: 1px solid $accent-bold;
+}
+
+.button {
+	padding: 2px 3px;
+	@include border-radius (4px);
+	border: 1px solid $accent-bold;
+	background-color: $accent-bright;
+	font-weight: 300;
+	&:hover, &:focus {
+		background-color: lighten($accent-bright, 10%);
+	}
+	margin-right: 1px;
+}
+
+.adminMenu {
+	ul {
+		padding: 0;
+		margin: .5em 0;
+		li {
+			list-style-type: none;
+			padding: 10px 0 5px 5px;
+			border-bottom: 1px solid $grey_light;
+			display: block;
+
+			a {
+				&:before {
+					content: '\00BB';
+					padding-right: 5px;
+				}
+			}
+		}
+	}
+}

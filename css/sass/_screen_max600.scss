@@ -1,0 +1,34 @@
+/* Changes for Mobile:
+- Collapse sidebar using javascript
+- Main div spans full width
+*/
+
+
+
+
+#main {
+	@include span(12 no-gutter);
+	padding-right: 0;
+}
+#main img {
+	max-width:250px;
+	height: auto;
+}
+
+#sidebar {
+	display: none;
+}
+
+#pdfObject, #pdfCanvasContainer iframe {
+	min-height: 400px !important;
+}
+#standardFooter {
+	a img {
+		max-width: 250px;
+	}
+}
+
+#issues .list .issueCoverImage, #issues .list .issueDescriptionImage {
+	max-width: 100%;
+}
+
