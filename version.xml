@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/themes/agriprima/version.xml
+  *
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Plugin version information.
+
+  * Modified from the Mason Publishing Theme by Afif Sugi Hendrianto, State Polyttechnic of Jember, Indonesia
+  -->
+<version>
+	<application>agriprima</application>
+	<type>plugins.themes</type>
+	<release>beta</release>
+	<date>2018-01-01</date>
+</version>
