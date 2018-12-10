@@ -1,0 +1,23 @@
+{**
+ * templates/manager/importexport/plugins.tpl
+ *
+ * Copyright (c) 2013-2018 Simon Fraser University
+ * Copyright (c) 2003-2018 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * List available import/export plugins.
+ *
+ *}
+{strip}
+{assign var="pageTitle" value="manager.importExport"}
+{include file="common/header.tpl"}
+{/strip}
+<div class="pseudoMenu">
+<ul>
+	{foreach from=$plugins item=plugin}
+	<li><a class="pseudoHeading" href="{url op="importexport" path="plugin"|to_array:$plugin->getName()}">{$plugin->getDisplayName()|escape}</a>{$plugin->getDescription()|escape}</li>
+	{/foreach}
+</ul>
+</div>
+{include file="common/footer.tpl"}
+
