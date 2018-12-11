@@ -856,8 +856,7 @@ ul.navMenu li:hover{
   line-height:1.7em;
   display:block;
   padding:5px 5px 6px 5%;
-  background:-webkit-gradient(linear, center top, center bottom, rgb(25, 103, 51)), to(rgb(10, 59, 37)));
-  background-image:linear-gradient(rgb(25, 103, 51), rgb(10, 59, 37));
+  background-image: linear-gradient(#2196F3, #045ea5);
   color:white;
 }
 
