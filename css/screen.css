@@ -626,7 +626,7 @@ a.blockTitle{
 
 nav{
 width:100%;
-background:-webkit-gradient(linear, center top, center bottom, rgb(10, 94, 55)), to(rgb(10, 58, 36)));
+background-image:linear-gradient(rgb(0, 39, 255), rgb(34, 2, 39));
 background-image:linear-gradient(rgb(10, 94, 55), rgb(10, 58, 36));
 overflow:auto;
 padding:0;
@@ -707,7 +707,7 @@ ul.navMenu li:hover{
   line-height:1.71429em;
   padding:.5em 15px;
   background:-webkit-gradient(linear, center top, center bottom, rgb(10, 93, 54)), to(rgb(10, 61, 38)));
-  background-image:linear-gradient(rgb(10, 93, 54), rgb(10, 61, 38));
+  background-image: linear-gradient(rgb(0, 39, 255), rgb(31, 3, 82));
   color:white;
   font-style:italic;
 }
