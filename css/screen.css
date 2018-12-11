@@ -626,8 +626,7 @@ a.blockTitle{
 
 nav{
 width:100%;
-background-image:linear-gradient(rgb(0, 39, 255), rgb(34, 2, 39));
-background-image:linear-gradient(rgb(10, 94, 55), rgb(10, 58, 36));
+background-image: linear-gradient(#03a9f4, #007fb9);
 overflow:auto;
 padding:0;
 margin-bottom:1%;
@@ -706,8 +705,7 @@ ul.navMenu li:hover{
   font-size:0.875em;
   line-height:1.71429em;
   padding:.5em 15px;
-  background:-webkit-gradient(linear, center top, center bottom, rgb(10, 93, 54)), to(rgb(10, 61, 38)));
-  background-image: linear-gradient(rgb(0, 39, 255), rgb(31, 3, 82));
+  background-image: linear-gradient(#03a9f4, #007fb9);
   color:white;
   font-style:italic;
 }
@@ -856,7 +854,7 @@ ul.navMenu li:hover{
   line-height:1.7em;
   display:block;
   padding:5px 5px 6px 5%;
-  background-image: linear-gradient(#2196F3, #045ea5);
+  background-image: linear-gradient(#03a9f4, #007fb9);
   color:white;
 }
 
