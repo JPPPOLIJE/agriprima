@@ -961,12 +961,14 @@ ul.navMenu li:hover{
   color:lightgreen;
 }
 
-#footer-contacttitle{
-  width:20%;
-  float:left;
-  min-height:80px;
-  color:white;
-  font-weight:bold;
+#footer-contacttitle {
+    width: 19%;
+    float: left;
+    min-height: 80px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 2%;
 }
 
 #footer-contact{
@@ -983,49 +985,47 @@ ul.navMenu li:hover{
   font-weight:normal;
 }
 
-#footer-middle{
-  width:100%;
-  float:left;
-  margin-bottom:10px;
-  font-size:0.8em;
-  margin-top:15px;
-  color:#00ffa1;
-  font-weight:normal;
+#footer-middle {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+    margin-top: 15px;
+    color: white;
+    font-weight: normal;
 }
 
-#footer-middle #left{
-  width:38%;
-  float:left;
-  margin-left:3%;
-  margin-right:1%;
-  text-align:right;
+#footer-middle #left {
+    width: 24%;
+    float: left;
+    margin-right: 2%;
+    text-align: left;
 }
 
-#footer-middle #center{
-  float:left;
-  width:16%;
-  min-width:80px
+#footer-middle #center {
+    float: left;
+    width: 18%;
+    min-width: 80px;
+    text-align: left;
+    margin-right: 2%;
 }
 
 #footer-middle #center img{
   height:80px
 }
 
-#footer-middle #right{
-  width:38%;
-  float:right;
-  margin-left:1%;
-  margin-right:3%;
-  text-align:left;
+#footer-middle #right {
+    width: 12%;
+    float: left;
+    margin-right: 2%;
+    text-align: left;
 }
 
-#footer-middletitle{
-  width:60%;
-  float:left;
-  color:white;
-  border-left:1px #1EB568 solid;
-  border-right:1px #1EB568 solid;
-  font-weight:bold;
+#footer-middletitle {
+    width: 100%;
+    float: left;
+    color: white;
+    font-weight: bold;
 }
 
 #footer-middle a img{
@@ -1033,11 +1033,11 @@ ul.navMenu li:hover{
   margin-top:10px;
 }
 
-#footer-sharetitle{width:20%;
-  float:left;
-  clear:both;
-  color:white;
-  font-weight:bold;
+#footer-sharetitle {
+    width: 19%;
+    float: left;
+    color: white;
+    text-align: left;
 }
 
 #footer-share{
