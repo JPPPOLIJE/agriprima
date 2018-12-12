@@ -28,4 +28,3 @@
 </p>
 
 {include file="common/footer.tpl"}
-
