@@ -944,17 +944,14 @@ ul.navMenu li:hover{
   border-bottom:1px solid #D1D3D5;
 }
 
-#pageFooter{
-  clear:both;
-  text-align:center;
-  border-top-width:1.5em;
-  border-top-style:solid;
-  border-bottom-width:1.5em;
-  border-bottom-style:solid;
-  padding-top:1em;
-  padding-bottom:1em;
-  background-color:#092a2a;
-  width:100%;
+#pageFooter {
+    clear: both;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: linear-gradient(to bottom, #0070a9 0%,#005a88 100%);
+    width: 100%;
+    border-top: 5px solid black;
 }
 
 #standardFooter{
@@ -967,7 +964,7 @@ ul.navMenu li:hover{
     min-height: 80px;
     color: white;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 2%;
     margin-right: 2%;
 }
 
