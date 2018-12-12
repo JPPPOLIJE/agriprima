@@ -658,7 +658,7 @@ ul.navMenu{
 }
 
 ul.navMenu li{
-  border-right:1px solid #0f4d48;
+  border-right: 0px solid white;
   font-family:"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
   font-weight:300;
   letter-spacing:.05em;
