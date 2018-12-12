@@ -69,8 +69,9 @@
 
 	<!-- Form validation -->
 	<script type="text/javascript" src="{$baseUrl}/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.js"></script>
-	<script type="text/javascript">
-		<!--
+	<script type="text/javascript" src="{$baseUrl}/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+	<!--<script type="text/javascript">
+		
 		// initialise plugins
 		{literal}
 		$(function(){
@@ -90,9 +91,9 @@
 				$(this).find('input').focus();
 			});
 		});
-		// -->
+		// 
 		{/literal}
-	</script>
+	</script>-->
 
 	{if $hasSystemNotifications}
 		{url|assign:fetchNotificationUrl page='notification' op='fetchNotification' escape=false}
