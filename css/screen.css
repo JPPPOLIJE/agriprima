@@ -725,13 +725,13 @@ ul.navMenu li:hover{
   text-align:justify;
 }
 
-#header{
-  min-height:200px;
-  text-align:center;
-  background-position:right;
-  width:100%;
-  background-repeat:no-repeat;
-  background-color:#68b8ed;
+#header {
+    height: 200px;
+    text-align: center;
+    background-position: right;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #68b8ed;
 }
 
 #header h1, #header img{
@@ -750,12 +750,12 @@ ul.navMenu li:hover{
   float:left;
 }
 
-#headerTitle figure img{
-  max-height:200px;
-  width:auto;
-  position:relative;
-  display:block;
-  z-index:10;
+#headerTitle figure img {
+    max-height: 200px;
+    width: auto;
+    position: absolute;
+    display: block;
+    z-index: 10;
 }
 
 #header #ISSN{
