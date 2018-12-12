@@ -159,6 +159,18 @@
 {/if}
 	
 </h1>
+<link href='https://fonts.google.com rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/slider.css" type="text/css" />
+<script src="{$baseUrl}/plugins/themes/agriprima/js/slider.js" type="text/javascript"></script>
+<div id="sliderFrame">
+<div id="ashslider">
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="#htmlcaption1" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="Multiple Animations!" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="Pure Javascript & CSS. No jQuery. No flash." /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="#htmlcaption2" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="Mouse-Over to Pause"/></a>
+</div>
+</div>
 </div>
 </div>
 {include file="common/navbar.tpl"}
