@@ -528,8 +528,8 @@ table td{
   padding:5px;
 }
 
-.TOC:nth-child(odd){
-  background-color:#ebf5e3;
+.TOC:nth-child(odd) {
+    background-color: #f2f7fe;
 }
 
 .pseudoHeading{
