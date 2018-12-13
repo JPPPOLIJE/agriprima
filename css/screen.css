@@ -1229,6 +1229,10 @@ a.file{
   margin-top:0;
 }
 
+#authorString{
+  margin-top: .75em;
+}
+
 .article #content{
   margin-top:1.5em;
   padding-top:0em;
@@ -1609,14 +1613,15 @@ td form{
   padding-right:5px;
 }
 
-.popup #header{
-  margin:.5em 0;
-  min-height:initial;
-  color:#017070;
-  text-align:right;
-  font-size:0.875em;
-  line-height:1.71429em;
-  background:#e9f3e4;
+.popup #header {
+  margin: .5em 0;
+  min-height: initial;
+  color: #036698;
+  text-align: right;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  background: #ecf6fd;
+  height: auto;
 }
 
 .popup #header #headerTitle{
