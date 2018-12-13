@@ -51,6 +51,23 @@
 		</div>
 	{/if}
 	{call_hook name="Templates::Article::Article::ArticleCoverImage"}
+	<div id="articleTitle"><h3>{$article->getLocalizedTitle()|strip_unsafe_html}</h3></div>
+	<div id="authorString"><em>Autor(s): {$article->getAuthorString()|escape}</em></div>
+	<br />
+
+		{foreach from=$pubIdPlugins item=pubIdPlugin}
+	{if $issue->getPublished()}
+		{assign var=pubId value=$pubIdPlugin->getPubId($pubObject)}
+	{else}
+		{assign var=pubId value=$pubIdPlugin->getPubId($pubObject, true)}{* Preview rather than assign a pubId *}
+	{/if}
+	{if $pubId}
+		{$pubIdPlugin->getPubIdDisplayType()|escape}: {if $pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}<a id="pub-id::{$pubIdPlugin->getPubIdType()|escape}" href="{$pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}">{$pubIdPlugin->_doiURLEncode($pubId)|escape}</a>{else}{$pubId|escape}{/if}
+		<br />
+		<br />
+	{/if}
+	{/foreach}
+	
 	{if $pubId}
 		<div data-badge-popover="bottom" data-badge-type="donut" data-hide-no-mentions="true" data-doi="{$pubId|escape}" class="altmetric-embed right" ></div>
 	{else}
