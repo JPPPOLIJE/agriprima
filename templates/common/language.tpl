@@ -22,6 +22,6 @@
 		//-->
 	</script>
 	<select id="languageSelect" {if $isPostRequest}disabled="disabled" {/if}size="1" name="locale" class="selectMenu" style="float:none">{html_options options=$languageToggleLocales selected=$currentLocale}</select>
-	<input style="margin-top: 1px; background-image: linear-gradient(#efefef, #e2e2e2);" type="submit" class="button" value="{translate key='form.submit'}" onclick="changeLanguage(); return false;" />
+	<input style="margin-top: 1px; background-image: linear-gradient(#efefef, #e2e2e2); color: black;" type="submit" class="button" value="{translate key='form.submit'}" onclick="changeLanguage(); return false;" />
 </div>
 {/if}
