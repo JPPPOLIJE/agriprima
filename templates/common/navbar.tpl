@@ -8,9 +8,7 @@
  * Navigation Bar
  *
  *}
-
 <nav>
-
 <div id="fullNav">
 <div id="navbar" role="navigation">
 	<ul class="navMenu menu">
