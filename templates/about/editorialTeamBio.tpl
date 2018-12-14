@@ -8,7 +8,6 @@
  * View the biography of an editorial team member.
  *
  *}
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -40,7 +39,6 @@
 
 	{$additionalHeadData}
 </head>
-
 <body id="pkp-{$pageTitle|replace:'.':'-'}" >
 {literal}
 <script type="text/javascript">
@@ -54,7 +52,7 @@
 {if !$pageTitleTranslated}{translate|assign:"pageTitleTranslated" key=$pageTitle}{/if}
 
 <div id="container" class="popup">
-<nav></nav>
+
 <div id="header">
 <div id="headerTitle">
 <h1>{translate key="about.editorialTeam"}</h1>
@@ -92,7 +90,7 @@
 		{icon name="mail" url=$address}
 	{/if}
 	<br />
-	{if $user->getUrl()}<a href="{$user->getUrl()|escape:"quotes"}" target="_new">{$user->getUrl()|escape}</a><br/>{/if}
+	{if $user->getUrl()}<a href="{$user->getUrl()|escape:"quotes"}" target="_new">{$user->getUrl()|escape}</a><br />{/if}
 	{if $user->getLocalizedAffiliation()}{$user->getLocalizedAffiliation()|escape}{assign var=needsComma value=1}{/if}{if $country}{if $needsComma}, {/if}{$country|escape}{/if}
 </p>
 
@@ -105,8 +103,6 @@
 </div><!-- main -->
 </div><!-- body -->
 </div><!-- container -->
-
-{include file="common/footer.tpl"}
+<!--{include file="common/footer.tpl"}-->
 </body>
 </html>
-
