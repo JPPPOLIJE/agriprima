@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Category form under site administration.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageId" value="admin.categories.categoryForm"}
@@ -47,4 +47,3 @@
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 </div>
 {include file="common/footer.tpl"}
-
