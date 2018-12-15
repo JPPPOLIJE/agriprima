@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Site settings form.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.siteSettings"}
@@ -189,4 +189,3 @@
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 
 {include file="common/footer.tpl"}
-
