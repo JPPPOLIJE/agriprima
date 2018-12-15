@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Journal site.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.aboutSite"}
@@ -31,4 +31,3 @@
 <a href="{url op="aboutThisPublishingSystem"}">{translate key="about.aboutThisPublishingSystem"}</a>
 
 {include file="common/footer.tpl"}
-
