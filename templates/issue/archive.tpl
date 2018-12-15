@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Issue Archive.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="archive.archives"}
@@ -59,4 +59,3 @@
 {/if}
 </div>
 {include file="common/footer.tpl"}
-
