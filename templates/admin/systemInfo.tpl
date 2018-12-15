@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Display system information.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.systemInformation"}
@@ -101,4 +101,3 @@
 <a href="{url op="phpinfo"}" target="_blank">{translate key="admin.phpInfo"}</a>
 </div>
 {include file="common/footer.tpl"}
-
