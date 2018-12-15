@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Authentication source settings under site administration.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.authSources"}
@@ -61,4 +61,3 @@
 </form>
 </div>
 {include file="common/footer.tpl"}
-
