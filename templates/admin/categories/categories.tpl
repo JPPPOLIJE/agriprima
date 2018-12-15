@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Display list of categories in journal management.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.categories"}
@@ -70,4 +70,3 @@ $(document).ready(function() { setupTableDND("#dragTable", "moveCategory"); });
 </div>
 
 {include file="common/footer.tpl"}
-
