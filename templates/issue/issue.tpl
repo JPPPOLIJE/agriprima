@@ -56,7 +56,7 @@
 				{$article->getLocalizedTitle()|strip_unsafe_html}
 			{/if}
 		</div>
-		<div class="tocAuthors">
+		<div class="tocAuthors">Author(s):
 			{if (!$section.hideAuthor && $article->getHideAuthor() == $smarty.const.AUTHOR_TOC_DEFAULT) || $article->getHideAuthor() == $smarty.const.AUTHOR_TOC_SHOW}
 				{foreach from=$article->getAuthors() item=author name=authorList}
 					{$author->getFullName()|escape}{if !$smarty.foreach.authorList.last},{/if}
@@ -64,6 +64,19 @@
 			{else}
 				&nbsp;
 			{/if}
+		</div>
+		<div style="padding-top: 0em; font-size: 0.9em;">
+			{foreach from=$pubIdPlugins item=pubIdPlugin}
+						{if $issue->getPublished()} {assign var=pubId value=$pubIdPlugin->getPubId($article)}
+						{else}
+						{assign var=pubId value=$pubIdPlugin->getPubId($article, true)}{* Preview rather than assign a pubId *}
+						{/if}
+						{if $pubId}{$pubIdPlugin->getPubIdDisplayType()}: <a target="_new" href="{$pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}">
+						{$pubIdPlugin->_doiURLEncode($pubId)|escape}</a>
+						{/if}
+			{/foreach} | 
+					{translate key="about.statistics"}: <strong>{$article->getViews()}</strong> view{if $hasAccess || ($subscriptionRequired && $showGalleyLinks)}{foreach from=$article->getGalleys() item=galley name=galleyList}{/foreach}{/if}, <strong>{$galley->getViews()}</strong> download
+        
 		</div>
 	</td>
 
