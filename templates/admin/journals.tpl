@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Display list of journals in site administration.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="journal.journals"}
@@ -64,4 +64,3 @@ $(document).ready(function() { setupTableDND("#adminJournals", "moveJournal"); }
 <p><a href="{url op="createJournal"}" class="action">{translate key="admin.journals.create"}</a></p>
 
 {include file="common/footer.tpl"}
-
