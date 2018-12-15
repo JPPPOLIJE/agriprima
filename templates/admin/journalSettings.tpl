@@ -4,9 +4,9 @@
  * Copyright (c) 2013-2018 Simon Fraser University
  * Copyright (c) 2003-2018 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
+ * 
  * Basic journal settings under site administration.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.journals.journalSettings"}
@@ -85,4 +85,3 @@ function doSubmit() {
 <p><span class="formRequired">{translate key="common.requiredField"}</span></p>
 
 {include file="common/footer.tpl"}
-
