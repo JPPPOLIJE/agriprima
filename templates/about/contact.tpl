@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Journal / Journal Contact.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.journalContact"}
