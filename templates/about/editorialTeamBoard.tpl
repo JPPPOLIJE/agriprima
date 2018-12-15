@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Journal index.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.editorialTeam"}
@@ -31,4 +31,3 @@
 {/foreach}{* $groups *}
 
 {include file="common/footer.tpl"}
-
