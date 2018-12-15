@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Association memberships
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.memberships"}
@@ -19,4 +19,3 @@
 {translate key="manager.subscriptionTypes.cost"} {$membershipFee|string_format:"%.2f"} ({$currency|escape})</p> 
 </div>
 {include file="common/footer.tpl"}
-
