@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * List users so the site administrator can choose users to merge.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.mergeUsers"}
@@ -138,4 +138,3 @@
 </div>
 </div>
 {include file="common/footer.tpl"}
-
