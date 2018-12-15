@@ -44,7 +44,7 @@
 		<table class="tocArticle" width="100%">
 		<tr valign="top">
 			<td class="tocTitle">{translate key="issue.viewIssueDescription"}</td>
-			<td class="tocGalleys">
+			<td class="tocGalleys" style="width: 10%; background-image: linear-gradient(to bottom, #0080c0 0%,#0c6794 100%);">
 			{if $hasAccess || ($subscriptionRequired && $showGalleyLinks)}
 				{foreach from=$issueGalleys item=issueGalley}
 					{if $issueGalley->isPdfGalley()}
