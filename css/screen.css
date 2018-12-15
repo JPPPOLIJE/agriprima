@@ -79,7 +79,7 @@ td.value{
   border-radius:4px;
   font-weight:300;
   margin-right:1px;
-  background-image: linear-gradient(to bottom, #0080c0 0%,#0c6794 100%);
+  background-image: linear-gradient(to bottom, #bfeeff 0%,#a2d3f3 100%);
   border:none;
 }
 
@@ -300,7 +300,7 @@ h4{
 h5, .tocTitle{
   font-size:1em;
   text-align:justify;
-  margin-right:3%;
+  margin-right:0;
 }
 
 a{
@@ -369,11 +369,11 @@ nav a:active{
 }
 
 a.action, .button, .action,.toggleExtras-inactive,.toggleExtras-active, #setup .options, .options a{
-  color: #ffffff;
+  color: #18497e;
 }
 
 a.action:visited, .button:visited, .action:visited,.toggleExtras-inactive:visited,.toggleExtras-active:visited, #setup .options:visited, .options a:visited{
-  color: #ffffff;
+  color: #a2d3f3;
 }
 
 a.action:focus, .button:focus, .action:focus,.toggleExtras-inactive:focus,.toggleExtras-active:focus, #setup .options:focus, .options a:focus{
@@ -531,7 +531,8 @@ table td{
 
 .TOC{
   border:1px solid #edf1f1;
-  padding:5px;
+  padding:0;
+  width: 100%;
 }
 
 .TOC:nth-child(odd) {
@@ -1109,10 +1110,34 @@ a.file{
   font-family:serif;
 }
 
-.tocArticleGalleysPages, .tocGalleys{
-  text-align:end;
-  vertical-align:middle;
-  padding-right:2%;
+.tocArticleGalleysPages{
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5% 1% 0 1%;
+}
+
+.tocGalleys {
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  margin: auto;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #20538d 0%,#07355e 100%);
+}
+
+.tocGalleys a{
+  background-color: transparent;
+  border: none;
+  line-height: 1.5em;
+}
+
+.tocArticleTitleAuthors{
+  width: 90%;
+  padding:1% 0 1% 1%;
+}
+
+.tocArticleCoverImage{
+  display: none;
 }
 
 .tocPages, .tocAuthors{
