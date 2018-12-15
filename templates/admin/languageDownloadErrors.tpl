@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Display error messages associated with a failed language download.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="common.languages"}
@@ -24,4 +24,3 @@
 <a href="{url op="languages"}" class="action">{translate key="common.languages"}</a>
 
 {include file="common/footer.tpl"}
-
