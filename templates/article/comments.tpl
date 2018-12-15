@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Article View -- Comments component.
- *
+ * Verify by afifsh
  *}
 {if $comments}
 <div class="separator"></div>
@@ -53,4 +53,3 @@
 	{/if}
 	<a class="action" href="{url page="comment" op="add" path=$article->getId()|to_array:$galleyId}" target="_parent">{translate key="rt.addComment"}</a>
 {/if}
-
