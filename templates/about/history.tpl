@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Journal => History
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.history"}
@@ -16,4 +16,3 @@
 {$history}
 
 {include file="common/footer.tpl"}
-
