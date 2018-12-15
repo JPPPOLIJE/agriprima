@@ -8,7 +8,7 @@
  * About the Journal / About This Publishing System.
  *
  * TODO: Display the image describing the system.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.aboutThisPublishingSystem"}
