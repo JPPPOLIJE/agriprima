@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Display list of authentication sources in site administration.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.authSources"}
@@ -69,4 +69,3 @@
 </div>
 </div>
 {include file="common/footer.tpl"}
-
