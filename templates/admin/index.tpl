@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Site administration index.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="admin.siteAdmin"}
@@ -44,4 +44,3 @@
 </ul>
 </div>
 {include file="common/footer.tpl"}
-
