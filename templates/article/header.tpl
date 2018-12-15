@@ -4,7 +4,7 @@
  * Copyright (c) 2013-2018 Simon Fraser University
  * Copyright (c) 2003-2018 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
+ * Verify by afifsh
  * Article View -- Header component.
  *}
 <?xml version="1.0" encoding="UTF-8"?>
@@ -26,10 +26,10 @@
 	{call_hook name="Templates::Article::Header::Metadata"}
 
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/pkp.css" type="text/css" />
-<!-- 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
+<!--<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" /> -->
 	<link rel="stylesheet" href="{$baseUrl}/styles/compiled.css" type="text/css" />
-<!-- 	<link rel="stylesheet" href="{$baseUrl}/styles/articleView.css" type="text/css" /> -->
+<!--<link rel="stylesheet" href="{$baseUrl}/styles/articleView.css" type="text/css" /> -->
 	{if $journalRt && $journalRt->getEnabled()}
 		<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/rtEmbedded.css" type="text/css" />
 	{/if}
@@ -40,6 +40,10 @@
 	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/leftSidebar.css" type="text/css" />{/if}
 	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/rightSidebar.css" type="text/css" />{/if}
 	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/bothSidebars.css" type="text/css" />{/if}
+
+	{foreach from=$stylesheets item=cssUrl}
+		<link rel="stylesheet" href="{$cssUrl}" type="text/css" />
+	{/foreach}
 
 	<!-- Base Jquery -->
 	{if $allowCDN}<script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -92,7 +96,6 @@
 </figure>
 {/if}
 <h1>
-	
 {if $displayPageHeaderTitle && is_array($displayPageHeaderTitle)}
 	<figure>
 		<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} />
@@ -138,4 +141,3 @@
 </div>
 
 <div id="content">
-
