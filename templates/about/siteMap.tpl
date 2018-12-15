@@ -8,7 +8,7 @@
  * About the Journal / Site Map.
  *
  * TODO: Show the site map.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.siteMap"}
@@ -84,4 +84,3 @@
 </ul>
 </div>
 {include file="common/footer.tpl"}
-
