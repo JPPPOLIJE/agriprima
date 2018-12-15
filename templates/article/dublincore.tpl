@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * Dublin Core metadata elements for articles.
- *
+ * Verify by afifsh
  *}
 <link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
 
@@ -93,4 +93,3 @@
 {/foreach}
 	<meta name="DC.Type" content="Text.Serial.Journal"/>
 	<meta name="DC.Type.articleType" content="{$article->getSectionTitle()|strip_tags|escape}"/>
-
