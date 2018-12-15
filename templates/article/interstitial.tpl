@@ -7,7 +7,7 @@
  *
  * Interstitial page used to display a note
  * before downloading a file
- *
+ * Verify by afifsh
  *}
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -60,4 +60,3 @@
 </div>
 </body>
 </html>
-
