@@ -6,7 +6,7 @@
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * About the Journal / Submissions.
- *
+ * Verify by afifsh
  *}
 {strip}
 {assign var="pageTitle" value="about.submissions"}
@@ -19,31 +19,27 @@
 {/if}
 
 <ul class="menu">
-	{if !$currentJournal->getSetting('disableUserReg')}<li id="linkDisableUserReg"><a href="{url page="about" op="submissions" anchor="onlineSubmissions"}">{translate key="about.onlineSubmissions"}</a></li>{/if}
+	<li id="linkDisableUserReg"><a href="{url page="about" op="submissions" anchor="onlineSubmissions"}">{translate key="about.onlineSubmissions"}</a></li>
 	{if $currentJournal->getLocalizedSetting('authorGuidelines') != ''}<li id="linkAuthorGuidelines"><a href="{url page="about" op="submissions" anchor="authorGuidelines"}">{translate key="about.authorGuidelines"}</a></li>{/if}
 	{if $currentJournal->getLocalizedSetting('copyrightNotice') != ''}<li id="linkCopyrightNotice"><a href="{url page="about" op="submissions" anchor="copyrightNotice"}">{translate key="about.copyrightNotice"}</a></li>{/if}
 	{if $currentJournal->getLocalizedSetting('privacyStatement') != ''}<li id="linkPrivacyStatement"><a href="{url page="about" op="submissions" anchor="privacyStatement"}">{translate key="about.privacyStatement"}</a></li>{/if}
 	{if $authorFees}<li id="linkAuthorFees"><a href="{url page="about" op="submissions" anchor="authorFees"}">{translate key="about.authorFees"}</a></li>{/if}
 </ul>
 
-{if !$currentJournal->getSetting('disableUserReg')}
-	<div id="onlineSubmissions" class="block">
-		<h3>{translate key="about.onlineSubmissions"}</h3>
-		<p class="callout">{translate key="about.onlineSubmissions.registrationRequired"}</p>
-		<div >
-			<p>{translate key="about.onlineSubmissions.haveAccount" journalTitle=$siteTitle|escape}</p>
-			<a href="{url page="login"}" class="action">{translate key="about.onlineSubmissions.login"}</a>
-			<a href="{url page="author" op="submit"}" class="action">Start New Submission</a>
-		</div>
-		
-		<div >			
-			<p>{translate key="about.onlineSubmissions.needAccount"}</p>
+<div id="onlineSubmissions" class="block">
+	<h3>{translate key="about.onlineSubmissions"}</h3>
+	<p>
+		{translate key="about.onlineSubmissions.haveAccount" journalTitle=$siteTitle|escape}<br />
+		<a href="{url page="login"}" class="action">{translate key="about.onlineSubmissions.login"}</a>
+	</p>
+	{if !$currentJournal->getSetting('disableUserReg')}
+		<p>
+			{translate key="about.onlineSubmissions.needAccount"}<br />
 			<a href="{url page="user" op="register"}" class="action">{translate key="about.onlineSubmissions.registration"}</a>
-		</div>
-		
-
-	</div>
-{/if}
+		</p>
+		<p>{translate key="about.onlineSubmissions.registrationRequired"}</p>
+	{/if}
+</div>
 
 <div class="separator">&nbsp;</div>
 
@@ -104,4 +100,3 @@
 </div>
 {/if}
 {include file="common/footer.tpl"}
-
