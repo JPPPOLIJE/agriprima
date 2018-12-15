@@ -4,7 +4,7 @@
  * Copyright (c) 2013-2018 Simon Fraser University
  * Copyright (c) 2003-2018 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
+ * Verify by afifsh
  * Article View.
  *}
 {strip}
@@ -23,7 +23,6 @@
 		{include file="article/pdfViewer.tpl"}
 	{/if}
 {else}
-
 {foreach from=$pubIdPlugins item=pubIdPlugin}
 	{if $issue->getPublished()}
 		{assign var=pubId value=$pubIdPlugin->getPubId($pubObject)}
