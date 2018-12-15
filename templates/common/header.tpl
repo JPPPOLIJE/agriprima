@@ -207,7 +207,7 @@
 
 {if $pageSubtitle && !$pageSubtitleTranslated}{translate|assign:"pageSubtitleTranslated" key=$pageSubtitle}{/if}
 {if $pageSubtitleTranslated}
-	<h3>{$pageSubtitleTranslated}</h3>
+	<h3 style="padding-left: 2.5%;">{$pageSubtitleTranslated}</h3>
 {/if}
 
 <div id="content" >
