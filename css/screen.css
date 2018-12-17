@@ -79,12 +79,12 @@ td.value{
   border-radius:4px;
   font-weight:300;
   margin-right:1px;
-  background-image: linear-gradient(to bottom, #bfeeff 0%,#a2d3f3 100%);
+  background-image: linear-gradient(to bottom, #dde8ef 0%,#d5e2eb 100%);
   border:none;
 }
 
 .button:hover, .action:hover,.toggleExtras-inactive:hover,.toggleExtras-active:hover, #setup .options:hover, .button:focus, .action:focus,.toggleExtras-inactive:focus,.toggleExtras-active:focus, #setup .options:focus{
-  background-image: linear-gradient(to bottom, #20538d 0%,#07355e 100%);
+  background-image: linear-gradient(to bottom, #cbdeee 0%,#bbdeee 100%);
 }
 
 .adminMenu ul, .pseudoMenu ul, #sidebarUser ul, table.listing ul{
@@ -110,7 +110,7 @@ td.value{
 .adminMenu ul li, .pseudoMenu ul li, #sidebarUser ul li, table.listing ul li{
   list-style-type:none;
   padding:5px 0 5px 5px;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #cccccc;
   display:block;
 }
 
@@ -123,7 +123,7 @@ td.value{
 #sidebar .block ul li{
   list-style-type:none;
   padding:5px 0 5px 10%;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #cccccc;
   display:block;
 }
 
@@ -149,7 +149,7 @@ body{
   font-family:"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
   font-size:16px;
   line-height:1.2em;
-  background-color:#dee0e1;
+  background-color:#e2e2e2;
   max-width:1920px;
 }
 
@@ -184,7 +184,7 @@ ol li{
 }
 
 #container{
-  background-color:white;
+  background-color:#ffffff;
   overflow:auto;
 }
 
@@ -250,7 +250,7 @@ ol li{
   top:-60px;
   left:1em;
   z-index:1000;
-  color:white;
+  color:red;
 }
 
 #skip-to-content:focus{
@@ -282,6 +282,7 @@ h2{
   font-size:2em;
   font-weight:700;
   padding:2%;
+  color: #006677;
 }
 
 h3{
@@ -305,7 +306,7 @@ h5, .tocTitle{
 
 a{
   text-decoration:none;
-  color:#0e6bbd;
+  color:#006677;
 }
 
 a:hover, a:focus{
@@ -313,79 +314,79 @@ a:hover, a:focus{
 }
 
 a:visited{
-  color:#0e6bbd;
+  color:#006677;
 }
 
 a:focus{
-  color:#07355E;
+  color:#004455;
 }
 
 a:hover{
-  color:#20538d;
+  color:#004455;
 }
 
 a:active{
-  color:#primary;
+  color:#004455;
 }
 
 nav a{
-  color:white;
+  color:#ffffff;
 }
 
 nav a:visited{
-  color:white;
+  color:#ffffff;
 }
 
 nav a:focus{
-  color:#ecf6fd;
+  color:#ffffff;
 }
 
 nav a:hover{
-  color:black;
+  color:#000000;
 }
 
 nav a:active{
-  color:#266BA8;
+  color:#006677;
 }
 
 #pageFooter a{
-  color:yellow;
+  color:#55ffee;
 }
 
 #pageFooter a:visited{
-  color:yellow;
+  color:#55ffee;
 }
 
 #pageFooter a:focus{
-  color:white;
+  color:#55ffee;
 }
 
 #pageFooter a:hover{
-  color:white;
+  color:#ffff00;
 }
 
 #pageFooter a:active{
-  color:green;
+  color:#55ffee;
 }
 
 a.action, .button, .action,.toggleExtras-inactive,.toggleExtras-active, #setup .options, .options a{
-  color: #18497e;
+  color: #006677;
 }
 
 a.action:visited, .button:visited, .action:visited,.toggleExtras-inactive:visited,.toggleExtras-active:visited, #setup .options:visited, .options a:visited{
-  color: #a2d3f3;
+  color: #006677;
 }
 
 a.action:focus, .button:focus, .action:focus,.toggleExtras-inactive:focus,.toggleExtras-active:focus, #setup .options:focus, .options a:focus{
-  color: #a2d3f3;
+  color: #004455;
 }
 
 a.action:hover, .button:hover, .action:hover,.toggleExtras-inactive:hover,.toggleExtras-active:hover, #setup .options:hover, .options a:hover{
-  color: #ffffff;
+  color: #004455;
 }
 
 a.action:active, .button:active, .action:active,.toggleExtras-inactive:active,.toggleExtras-active:active, #setup .options:active, .options a:active{
-  color: #a2d3f3;
+  color: #004455;
 }
 
 input, select, textarea{
@@ -425,7 +426,7 @@ table th, table tr.heading{
   font-family:"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
   font-size:1.125em;
   line-height:1.33333em;
-  background-color: #a2d3f3 ;
+  background-color: #bdd2e050;
   border-bottom:2px solid #8fbbd8;
   text-transform:capitalize;
   padding:.5em .25em;
@@ -445,7 +446,7 @@ table td{
 }
 
 .table-borders tr{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 .menu{
@@ -466,7 +467,7 @@ table td{
   float:left;
   padding-left:1em;
   padding-right:1em;
-  border-right:2px solid #D1D3D5;
+  border-right:2px solid #cccccc;
 }
 
 .menu li:first-child{
@@ -511,7 +512,7 @@ table td{
   color:white !important;
   display:block;
   padding:.7em;
-  background-color:#07355E;
+  background-color:#004455;
   -moz-box-shadow:0px 0px 5px #333333;
   -webkit-box-shadow:0px 0px 5px #333333;
   box-shadow:0px 0px 5px #333333;
@@ -522,7 +523,7 @@ table td{
 }
 
 .largeButton a:hover, .largeButton a:focus{
-  background-color:#266BA8;
+  background-color:#006677;
 }
 
 .headseparator{
@@ -536,7 +537,7 @@ table td{
 }
 
 .TOC:nth-child(odd) {
-    background-color: #f2f7fe;
+    background-color: #bdd2e050;
 }
 
 .pseudoHeading{
@@ -574,11 +575,11 @@ table td{
 }
 
 a.blockTitle{
-  color:white;
+  color:#ffffff;
   margin-left:0;
   font-style:italic;
   padding:5px 0;
-  background-image:linear-gradient(#20538d, #07355e);
+  background-image:linear-gradient(to bottom, #006677 0%,#004455 100%);
   -webkit-border-radius:10px;
   -moz-border-radius:10px;
   width:100%;
@@ -604,7 +605,7 @@ a.blockTitle{
 }
 
 .sort{
-  border:1px solid #D1D3D5;
+  border:1px solid #bdd2e050;
 }
 
 .sort form{
@@ -616,7 +617,7 @@ a.blockTitle{
   font-family:"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
   font-size:1.125em;
   line-height:1.33333em;
-  background-color:#dee0e1;
+  background-color:#3ebdd4;
   padding:.25em;
 }
 
@@ -633,11 +634,11 @@ a.blockTitle{
 
 nav{
 width:100%;
-background: linear-gradient(to bottom, #0068af 0%,#00528a 100%);
+background: linear-gradient(to bottom, #007788 0%,#006088 100%);
 overflow:auto;
 padding:0;
 margin-bottom:1%;
-border-top: 2px solid #a2d3f3;
+border-top: 2px solid #bdd2e0;
 }
 
 #mobileNav{
@@ -681,15 +682,15 @@ ul.navMenu li:last-child{
 }
 
 ul.navMenu li:visited{
-  background:#419476;
+  background:#bdd2e0;
 }
 
 ul.navMenu li:focus{
-  background:#419476;
+  background:#bdd2e0;
 }
 
 ul.navMenu li:hover{
-  background:#67a8d2;
+  background:#3ebdd4;
 }
 
 #searchbar{
@@ -712,19 +713,23 @@ ul.navMenu li:hover{
   font-size:0.875em;
   line-height:1.71429em;
   padding:.5em 15px;
-  background: #a2d3f3;
-  color:black;
+  background: #3ebdd4;
+  color:#000000;
   font-style:italic;
 }
 
 #breadcrumb a{
-  color:black;
+  color:#000000;
   margin-left:5px;
   margin-right:5px;
 }
 
+#breadcrumb a:hover{
+  color:#006677;
+}
+
 #breadcrumbTT{
-  color:#0f4d48;
+  color:red;
 }
 
 #content{
@@ -738,7 +743,7 @@ ul.navMenu li:hover{
     background-position: right;
     width: 100%;
     background-repeat: no-repeat;
-    background-color: #68b8ed;
+    background-color: #0dcda4;
 }
 
 #header h1, #header img{
@@ -780,21 +785,21 @@ ul.navMenu li:hover{
 }
 
 #header #ISSN a{
-  color:#00978b;
+  color:red;
   font-weight:bold;
   font-size:larger;
 }
 
 #header #ISSN a:visited{
-  color:#00978b;
+  color:red;
 }
 
 #header #ISSN a:focus{
-  color:#00978b;
+  color:red;
 }
 
 #header #ISSN a:hover{
-  color:black;
+  color:red;
 }
 
 #header #ISSNnav{
@@ -802,7 +807,7 @@ ul.navMenu li:hover{
 }
 
 #header #ISSNnav a{
-  color:white;
+  color:red;
   -webkit-text-stroke-width:0.5px;
   -webkit-text-stroke-color:black;
   font-weight:bold;
@@ -810,15 +815,15 @@ ul.navMenu li:hover{
 }
 
 #header #ISSNnav a:visited{
-  color:white;
+  color:red;
 }
 
 #header #ISSNnav a:focus{
-  color:white;
+  color:red;
 }
 
 #header #ISSNnav a:hover{
-  color:black;
+  color:red;
 }
 
 #sidebar{
@@ -861,15 +866,15 @@ ul.navMenu li:hover{
   line-height:1.7em;
   display:block;
   padding:5px 5px 6px 5%;
-  background-image: linear-gradient(to bottom, #0080c0 0%,#0c6794 100%);
-  color:white;
+  background-image: linear-gradient(to bottom, #007788 0%,#006088 100%);
+  color:#ffffff;
 }
 
 .blockSubtitle{
   font-size:1.125em;
   line-height:1.33333em;
   display:block;
-  border-top:3px solid #D1D3D5;
+  border-top:3px solid #cccccc;
   padding:5% 0 0 7%;
 }
 
@@ -912,7 +917,7 @@ ul.navMenu li:hover{
 
 #sidebarRTAuthorBios .authorBio{
   padding:1em 0;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 .authorBio p{
@@ -924,7 +929,7 @@ ul.navMenu li:hover{
   float:right;
   margin-right:1%;
   margin-bottom:1%;
-  background-color:white;
+  background-color:#ffffff;
   background-image:url(img/tt.png);
   background-repeat:no-repeat;
   background-position-y:2.5em;
@@ -948,7 +953,7 @@ ul.navMenu li:hover{
 
 .details td{
   margin-bottom:1.5em;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 #pageFooter {
@@ -956,7 +961,7 @@ ul.navMenu li:hover{
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: linear-gradient(to bottom, #0070a9 0%,#005a88 100%);
+    background: linear-gradient(to bottom, #007788 0%,#006088 100%);
     width: 100%;
     border-top: 5px solid black;
 }
@@ -966,14 +971,14 @@ ul.navMenu li:hover{
     float: left;
     padding: 1%;
     font-size: 0.8em;
-    color: white;
+    color: #ffffff;
     font-weight: normal;
 }
 
 #footer-4col {
     width: 100%;
     float: left;
-    color: white;
+    color: #ffffff;
 }
 
 #footer-4col a img{
@@ -985,7 +990,7 @@ ul.navMenu li:hover{
     width: 19%;
     float: left;
     min-height: 80px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 2%;
     margin-right: 2%;
@@ -1016,7 +1021,7 @@ ul.navMenu li:hover{
 #footer-col4 {
     width: 19%;
     float: left;
-    color: white;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -1024,7 +1029,7 @@ ul.navMenu li:hover{
   clear:both;
   padding:0px;
   background:black;
-  color:white;
+  color:#ffffff;
 }
 
 #indexed {
@@ -1074,7 +1079,7 @@ ul.navMenu li:hover{
 }
 
 #results table tr:nth-child(odd){
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 #issues .list{
@@ -1088,7 +1093,7 @@ ul.navMenu li:hover{
 
 #issues .list .issueCoverImage img{
   width:100%;
-  border:1px solid #D1D3D5;
+  border:1px solid #bdd2e050;
 }
 
 #issues .list .issueDescriptionImage{
@@ -1103,7 +1108,7 @@ ul.navMenu li:hover{
 }
 
 a.file{
-  background-color:#005691;
+  background-color:#006688;
   padding:0.1em .5em;
   color:#ffffff;
   font-weight:bold;
@@ -1119,14 +1124,14 @@ a.file{
 .tocGalleys {
   text-align: center;
   vertical-align: middle;
-  width: 80%;
+  /*width: 80%;
   margin: auto;
   border-radius: 4px;
-  background-image: linear-gradient(to bottom, #20538d 0%,#07355e 100%);
+  background-image: linear-gradient(to bottom, #007788 0%,#006088 100%);*/
 }
 
 .tocGalleys a{
-  background-color: transparent;
+  background-color: #006677;
   border: none;
   line-height: 1.5em;
 }
@@ -1189,7 +1194,7 @@ a.file{
 }
 
 .list{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #cccccc;
 }
 
 .list h4:before{
@@ -1200,7 +1205,7 @@ a.file{
 h3.issue{
   background:none;
   padding-left:0;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #cccccc;
 }
 
 #pdfDownloadLinkContainer{
@@ -1224,11 +1229,11 @@ h3.issue{
 }
 
 table.alt-color tbody tr:nth-child(even){
-  background-color:#e6e7e8;
+  background-color:red;
 }
 
 table.alt-color-odd tbody tr:nth-child(odd){
-  background-color:#e6e7e8;
+  background-color:red;
 }
 
 table.info{
@@ -1255,7 +1260,7 @@ table.info .tableHeading{
   font-family:"Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
   font-size:1.125em;
   line-height:1.33333em;
-  background-color:#dee0e1;
+  background-color:red;
 }
 
 table.info a{
@@ -1263,7 +1268,7 @@ table.info a{
 }
 
 table.info tr{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 table.info tr:last-child{
@@ -1279,11 +1284,11 @@ table.info td{
 }
 
 table.listing .heading a, #setup .pkp_controllers_grid table.listing th a, #setup .pkp_controllers_grid table.listing tr.heading a{
-  color:#000;
+  color:#004455;
 }
 
 table.listing tr{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 table.listing tr:last-child{
@@ -1303,19 +1308,19 @@ table.settings{
   padding-top:0em;
   padding-bottom:0em;
   margin-bottom:1.5em;
-  border:1px solid #D1D3D5;
+  border:1px solid #bdd2e050;
 }
 
 table.settings thead th, table.settings thead tr.heading{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 table.settings tfoot th, table.settings tfoot tr.heading, table.settings tfoot td{
-  border-top:1px solid #D1D3D5;
+  border-top:1px solid #bdd2e050;
 }
 
 table.settings th:first-child, table.settings tr.heading:first-child{
-  border-right:1px solid #D1D3D5;
+  border-right:1px solid #bdd2e050;
 }
 
 table.settings td.label{
@@ -1327,7 +1332,7 @@ table.checklist td{
 }
 
 table.email tr:nth-child(odd){
-  background-color:#e6e7e8;
+  background-color:red;
 }
 
 table.listing span.instruct{
@@ -1340,27 +1345,27 @@ table.nested{
 }
 
 table.single{
-  border-top:2px solid #D1D3D5;
-  border-bottom:2px solid #D1D3D5;
+  border-top:2px solid #bdd2e050;
+  border-bottom:2px solid #bdd2e050;
 }
 
 #profile table tr{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 #systemConfiguration h4{
   text-transform:capitalize;
   margin-top:1em;
   padding:.25em;
-  background-color:#ececed;
+  background-color:red;
 }
 
 #systemConfiguration table tr{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 .highlightReviewerNotNotified, .highlightCopyediting{
-  background-color:#266BA8;
+  background-color:#ffff00;
 }
 
 .highlightReviewerNotNotified:before, .highlightCopyediting:before{
@@ -1369,8 +1374,8 @@ table.single{
 }
 
 .highlightNoDecision{
-  background-color:#07355E;
-  color:white;
+  background-color: #77ccdd;
+  color: #004455;
 }
 
 .highlightNoDecision:before{
@@ -1379,7 +1384,7 @@ table.single{
 }
 
 .highlightReviewerConfirmationOverdue{
-  background-color:#FF6C3E;
+  background-color:#ff0000;
 }
 
 .highlightReviewerConfirmationOverdue:before{
@@ -1388,7 +1393,7 @@ table.single{
 }
 
 .highlightRevisedCopyUploaded, .highlightLayoutEditing{
-  background-color:#20538d;
+  background-color:#f363ff;
 }
 
 .highlightRevisedCopyUploaded:before, .highlightLayoutEditing:before{
@@ -1397,8 +1402,8 @@ table.single{
 }
 
 .highlightReviewerCompletionOverdue, .higlightProofreading{
-  background-color:#006633;
-  color:white;
+  background-color:#33ff33;
+  color:#004455;
 }
 
 .highlightReviewerCompletionOverdue:before, .higlightProofreading:before{
@@ -1425,7 +1430,7 @@ span.instruct{
 }
 
 #assignBlocksToSidebars{
-  border:1px solid #D1D3D5;
+  border:1px solid #bdd2e050;
 }
 
 #assignBlocksToSidebars .heading, #assignBlocksToSidebars #setup .pkp_controllers_grid table th, #setup .pkp_controllers_grid table #assignBlocksToSidebars th, #assignBlocksToSidebars #setup .pkp_controllers_grid table tr.heading, #setup .pkp_controllers_grid table #assignBlocksToSidebars tr.heading{
@@ -1454,8 +1459,8 @@ span.instruct{
 }
 
 #setup .pkp_controllers_grid table th, #setup .pkp_controllers_grid table tr.heading, #setup .pkp_controllers_grid table td{
-  border-right:1px solid #D1D3D5;
-  border-bottom:1px solid #D1D3D5;
+  border-right:1px solid #bdd2e050;
+  border-bottom:1px solid #bdd2e050;
   border-left-width:0;
   border-top-width:0;
 }
@@ -1530,7 +1535,7 @@ td form{
 }
 
 .pseudoMenu .current, #sidebar .block .current, #sidebarUser .current{
-  background-color:#D1D3D5;
+  background-color:red;
 }
 
 #plugins a.action{
@@ -1548,7 +1553,7 @@ td form{
 .pluginList ul li{
   list-style-type:none;
   padding:10px 0 5px 5px;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 .pluginList ul li p:before{
@@ -1559,7 +1564,7 @@ td form{
 .popup #header {
   margin: .5em 0;
   min-height: initial;
-  color: #036698;
+  color: #006677;
   text-align: right;
   font-size: 0.875em;
   line-height: 1.71429em;
@@ -1586,7 +1591,7 @@ td form{
 
 .popup #main{
   width:100%;
-  border:#d1e2c9 2px solid;
+  border:#bdd2e050 2px solid;
   background-image:url(img/tt.png);
 }
 
@@ -1601,24 +1606,24 @@ td form{
 }
 
 #articleComments table{
-  border:1px solid #D1D3D5;
+  border:1px solid #bdd2e050;
 }
 
 #articleComments table thead th, #articleComments table thead tr.heading{
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #bdd2e050;
 }
 
 #articleComments table tfoot th, #articleComments table tfoot tr.heading, #articleComments table tfoot td{
-  border-top:1px solid #D1D3D5;
+  border-top:1px solid #bdd2e050;
 }
 
 #articleComments table th:first-child, #articleComments table tr.heading:first-child{
-  border-right:1px solid #D1D3D5;
+  border-right:1px solid #bdd2e050;
 }
 
 #articleComments table th, #articleComments table tr.heading, #articleComments table td{
-  border-right:1px solid #D1D3D5;
-  border-bottom:1px solid #D1D3D5;
+  border-right:1px solid #bdd2e050;
+  border-bottom:1px solid #bdd2e050;
   border-left-width:0;
   border-top-width:0;
 }
@@ -1664,7 +1669,7 @@ td form{
 .fancyList ul li, #signinForm ul li{
   list-style-type:none;
   padding:10px 0 5px 5px;
-  border-bottom:1px solid #D1D3D5;
+  border-bottom:1px solid #cccccc;
 }
 
 .fancyList ul li:before, #signinForm ul li:before{
