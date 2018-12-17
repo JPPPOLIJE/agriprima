@@ -18,13 +18,18 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
-	<!-- <link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
+	<!--<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/compiled.css" type="text/css" />
-	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/rt.css" type="text/css" /> -->
+	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/rt.css" type="text/css" />-->
 
 	{include file="common/head.tpl"}
-	<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />
+	{call_hook|assign:"leftSidebarCode" name="Templates::Common::LeftSidebar"}
+	{call_hook|assign:"rightSidebarCode" name="Templates::Common::RightSidebar"}
+	{if $leftSidebarCode || $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/screen.css" type="text/css" />{/if}
+	{if $leftSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/leftSidebar.css" type="text/css" />{/if}
+	{if $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/rightSidebar.css" type="text/css" />{/if}
+	{if $leftSidebarCode && $rightSidebarCode}<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/bothSidebars.css" type="text/css" /> {/if}
 
 	{foreach from=$stylesheets item=cssUrl}
 		<link rel="stylesheet" href="{$cssUrl}" type="text/css" />
@@ -103,6 +108,6 @@
 </div><!-- main -->
 </div><!-- body -->
 </div><!-- container -->
-<!--{include file="common/footer.tpl"}-->
+{include file="common/footer.tpl"}
 </body>
 </html>
