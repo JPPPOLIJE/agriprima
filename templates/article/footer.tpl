@@ -57,60 +57,60 @@
 	{$pageFooter}
 {/if}
 {call_hook name="Templates::Common::Footer::PageFooter"}
-	<div style="max-width: 1600px;margin-left: auto;margin-right: auto;padding: 0 1%;">
-	<div id="footer-middletitle">
 	<div id="footer-middle">
-	<div id="footer-contacttitle">
-	<div style="width: 100%"><iframe width="100%" height="NaN" src="https://maps.google.com/maps?width=100%&amp;height=NaN&amp;hl=en&amp;q=Politeknik%20Negeri%20Jember+(Maps)&amp;ie=UTF8&amp;t=p&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe></div>
-	</div>
-		<div id="left">
-			<div>
-			<img src="{$baseUrl}/plugins/themes/agriprima/img/footer.png" style="height: 60px;"/><br/>
-			<h3 style="margin-top: .5em;">Official Website of Agriprima eJournal System</h3>
-			<p style="margin: 0;">All content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution ShareAlike 4.0 International License</a></p>
-			</div>
-			<div style="margin-top: 5px;">
-				<div>
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left; margin:5px 10px 0 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
+			<div id="footer-4col">
+				<div id="footer-col0">
+					<div style="width: 100%">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.442512518246!2d113.72212841538575!3d-8.158092183991236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd695b6f92a7187%3A0x6ffab1009691be7c!2sGedung+Jurusan+Produksi+Pertanian!5e0!3m2!1sid!2sid!4v1544809003003" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 				</div>
-				<div style="padding-top: 5px;">
-				<strong>© 2018, Agriprima, Journal of Applied Agricultural Sciences.</strong><br>
-				<p class="footer__copy" style=" margin: 0;">All rights reserved.</p>
+				
+				<div id="footer-col1">
+					<div>
+						<img src="{$baseUrl}/plugins/themes/agriprima/img/footer.png" style="height: 60px;"/><br/>
+						<h3 style="margin-top: .5em;">Official Website of eJournal System</h3>
+						<p style="margin: 0;">All content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution ShareAlike 4.0 International License</a></p>
+					</div>
+					<div style="margin-top: 5px;">
+						<div>
+							<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0;float:left; margin:8px 10px 0 0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
+						</div>
+						<div style="padding-top: 5px;">
+						<strong>© 2018. A G R I P R I M A</strong><br>
+						<p class="footer__copy" style=" margin: 0;"><em>Journal of Applied Agricultural Sciences</em></p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
 
-	<div id="center">
-			
-			<h3 style="margin: 50px 0 10px 0;">About Us</h3><hr/>
-			<p>e-ISSN: <a title="Electronic ISSN" href="http://www.issn.lipi.go.id/issn.cgi?daftar&1492407276&101&&"_blank">2579-9479</a></p>
-			<p>Powered by: <a  style="font-style: italic;" title="OJS System" href="https://pkp.sfu.ca/ojs/" target="_blank">Open Journal System Ver. <strong>2.4.8-3</strong></a></p>
-			<p>Managed by: <a title="Departement/Faculty" href=""_blank"> {translate key="jurusan"}</a></p>
-			<p>Published by: <a title="University" href="http://www.polije.ac.id" target="_blank"> {translate key="instansi"}</a></p>
-			<p style="font-style: italic" title="Address">Address: Jl. Mastrip Po.Box 164 Jember </p>
-	</div>	
+				<div id="footer-col2">
+					<h3 style="margin: 50px 0 10px 0;">About Us</h3><hr/>
+					<p>e-ISSN: <a title="Electronic ISSN" href="http://issn.pdii.lipi.go.id/issn.cgi?daftar&1485746618&1&&" target="_blank">2549-2942</a></p>
+					<p>Powered by: <a title="OJS System" href="https://pkp.sfu.ca/ojs/" target="_blank">Open Journal System Ver. <strong>2.4.8-3</strong></a></p>
+					<p>Managed by: <a title="Departement/Faculty" href="https://jpp.polije.ac.id" target="_blank">{translate key="jurusan"}</a></p>
+					<p>Published by: <a title="University" href="http://www.polije.ac.id" target="_blank">{translate key="instansi"}</a></p>
+					<p title="Address">Address: <em>Jl. Mastrip Po.Box 164 Jember</em></p>
+				</div>	
+				
 		
-		
-		<div id="right">
-			<h3 style="margin: 50px 0 10px 0;">Support Link</h3><hr/>
-			<ul>
-				<li><a href="javascript:openHelp('{if $helpTopicId}{get_help_id|escape key="$helpTopicId" url="true"}{else}{url page="help"}{/if}')">How to Use this Website</a></li>
-				<li><a href="{url page="about" op="submissions"}">How to Submit an Article</a></li>
-				<li><a href="{url page="issue" op="current"}">Our Current Publication</a></li>
-				<li><a href="" target="_blank">Information for Reader</a></li>
-				<li><a href="" target="_blank">Information for Publisher</a></li>
-			</ul>
-		</div>	
-	<div id="footer-sharetitle">
-			<h3 style="margin: 50px 0 10px 0;">Contact Us</h3><hr/>
-			<p>{translate key="about.contact.principalContact"}: <a href="mailto:cherry_triwidiarto@polije.ac.id">
-				Ir. Cherry Triwidiarto, M.Si</a></p>
-			<p>{translate key="about.contact.supportContact"}: <a href="mailto:afif_sugi@polije.ac.id"> Afif Sugi Hendrianto, S.ST</a></p>
-			<p>Website: <a title="URL" href="https://agriprima.polije.ac.id" target="_blank"> https://agriprima.polije.ac.id</a></p>
-			<p>Oficial Mail: <a title="Mailing Address" href="mailto:agriprima@polije.ac.id"> agriprima@polije.ac.id</a></p>
-			<p style="" title="Telp/fax"> Telp/fax : (0331) 333532-34 Ext.229 / (0331) 333531</p>			
-	</div>
-	</div>
+				<div id="footer-col3">
+					<h3 style="margin: 50px 0 10px 0;">Support Link</h3><hr/>
+					<ul style="padding-left: 1.3em;">
+						<li><a href="javascript:openHelp('{if $helpTopicId}{get_help_id|escape key="$helpTopicId" url="true"}{else}{url page="help"}{/if}')">How to Use this Website</a></li>
+						<li><a href="{url page="about" op="submissions"}">How to Submit an Article</a></li>
+						<li><a href="{url page="issue" op="current"}">Our Current Publication</a></li>
+						<li><a href="{url page="information" op="readers"}" target="_blank">Information for Reader</a></li>
+						<li><a href="{url page="information" op="librarians"}" target="_blank">Information for Publisher</a></li>
+					</ul>
+				</div>	
+				<div id="footer-col4">
+					<h3 style="margin: 50px 0 10px 0;">Contact Us</h3><hr/>
+					<p>{translate key="about.contact.principalContact"}: <a href="mailto:cherry_triwidiarto@polije.ac.id">Ir. Cherry Triwidiarto, M.Si</a></p>
+					<p>{translate key="about.contact.supportContact"}: <a href="mailto:afif_sugi@polije.ac.id"> Afif Sugi Hendrianto, S.ST</a></p>
+					<p>Website: <a title="URL" href="https://agriprima.polije.ac.id" target="_blank"> https://agriprima.polije.ac.id</a></p>
+					<p>Oficial Mail: <a title="Mailing Address" href="mailto:agriprima@polije.ac.id"> agriprima@polije.ac.id</a></p>
+					<p style="" title="Telp/fax"> Telp/fax : (0331) 333532-34 Ext.229 / (0331) 333531</p>			
+				</div>
+			</div>
 		</div>
 	<div id="footer-bottom"></div>
 	
