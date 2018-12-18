@@ -71,8 +71,7 @@
 						{else}
 						{assign var=pubId value=$pubIdPlugin->getPubId($article, true)}{* Preview rather than assign a pubId *}
 						{/if}
-						{if $pubId}{$pubIdPlugin->getPubIdDisplayType()}: <a target="_new" href="{$pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}">
-						{$pubIdPlugin->_doiURLEncode($pubId)|escape}</a>
+						{if $pubId}{$pubIdPlugin->getPubIdDisplayType()}: {if $pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}<a id="pub-id::{$pubIdPlugin->getPubIdType()|escape}" href="{$pubIdPlugin->getResolvingURL($currentJournal->getId(), $pubId)|escape}">{$pubIdPlugin->_doiURLEncode($pubId)|escape}</a>{else}{$pubId|escape}{/if}
 						{/if}
 			{/foreach} | 
 					{translate key="about.statistics"}: <strong>{$article->getViews()}</strong> view{if $hasAccess || ($subscriptionRequired && $showGalleyLinks)}{foreach from=$article->getGalleys() item=galley name=galleyList}{/foreach}{/if}, <strong>{$galley->getViews()}</strong> download
