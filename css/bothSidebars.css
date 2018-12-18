@@ -223,7 +223,7 @@
 @media screen and (max-width:575px){
   	#footer-col1 {
     	width: 90%;
-    	margin-right: 1%;
+    	margin: 0 5%;
 	}
 
 	#footer-col4 {
