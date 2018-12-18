@@ -8,10 +8,64 @@
   body{
     font-size:14px;
   }
+
+  #footer-middle{
+  	font-size:0.75em;
+  }
 }
 
 @media screen and (max-width:1140px){
+	#sidebar{
+		float:right;
+		width:27%;
+		margin left:1%;
+	}
 
+	#leftSidebar{
+		width:100%;
+		float:right;
+		margin-right:0;
+	}
+
+	#rightSidebar{
+		width:100%;
+		float:right;
+		margin-right:0;
+	}
+
+	#main{
+		width:72%;
+		float:left;
+		margin-left:0%;
+		margin-right:1%;
+	}
+	
+	#footer-middle{
+		margin: 0 1%;
+	}
+
+	#footer-col0{
+		display:none; 
+	}
+
+	#footer-col1 {
+    	width: 32%;
+     	margin-right: 1%;
+	}
+
+	#footer-col2 {
+   	 	width: 24%;
+    	margin-right: 1%;
+	}
+
+	#footer-col3 {
+    	width: 15%;
+   	 	margin-right: 1%;
+	}
+
+	#footer-col4 {
+    	width: 24%;
+	}
 }
 
 @media screen and (max-width:900px){
