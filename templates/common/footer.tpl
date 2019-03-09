@@ -56,8 +56,8 @@
 					<h3 style="margin: 50px 0 10px 0;">About Us</h3><hr/>
 					<p>e-ISSN: <a title="Electronic ISSN" href="http://issn.pdii.lipi.go.id/issn.cgi?daftar&1485746618&1&&" target="_blank">2549-2942</a></p>
 					<p>Powered by: <a title="OJS System" href="https://pkp.sfu.ca/ojs/" target="_blank">Open Journal System Ver. <strong>2.4.8-3</strong></a></p>
-					<p>Managed by: <a title="Departement/Faculty" href="https://jpp.polije.ac.id" target="_blank">{translate key="jurusan"}</a></p>
-					<p>Published by: <a title="University" href="http://www.polije.ac.id" target="_blank">{translate key="instansi"}</a></p>
+					<p>Managed by: <a title="Departement/Faculty" href="https://jpp.polije.ac.id" target="_blank">{translate key="plugins.theme.agriprima.jurusan"}</a></p>
+					<p>Published by: <a title="University" href="http://www.polije.ac.id" target="_blank">{translate key="plugins.theme.agriprima.instansi"}</a></p>
 					<p title="Address">Address: <em>Jl. Mastrip Po.Box 164 Jember</em></p>
 				</div>	
 				
