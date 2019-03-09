@@ -42,11 +42,12 @@ div.mc-caption-bg {
 	background-color:black;
 }
 div.mc-caption {
-	font: bold 14px/20px Arial;
-	color:#EEE;
+	font: bold 16px/20px Arial;
+	color:#fff;
 	z-index:4;
-	padding:10px 0;
+	padding:10px 5% 10px 65%;
 	text-align:center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 div.mc-caption a {
 	color:#FB0;
@@ -58,8 +59,8 @@ div.mc-caption a:hover {
 
 /* ------ built-in navigation bullets wrapper ------*/
 div.navBulletsWrapper  {
-	top:180px; 
-	left:1075px; /* Its position is relative to the #slider */
+	top:187px; 
+	left:76.5%; /* Its position is relative to the #slider */
 	width:150px;
 	background:none;
 	position:relative;

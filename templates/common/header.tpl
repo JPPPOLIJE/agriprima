@@ -22,7 +22,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset={$defaultCharset|escape}" />
 	<title>{$pageTitleTranslated}</title>
 	<meta name="description" content="{$metaSearchDescription|escape}" />
-	<meta name="keywords" content="{$metaSearchKeywords|escape}" />
+	<meta name="keywords" content="agriprima themes by afifsh; {$metaSearchKeywords|escape}" />
 	<meta name="generator" content="{$applicationName} {$currentVersionString|escape}" />
 	{$metaCustomHeaders}
 	{if $displayFavicon}<link rel="icon" href="{$faviconDir}/{$displayFavicon.uploadName|escape:"url"}" type="{$displayFavicon.mimeType|escape}" />{/if}
@@ -169,11 +169,11 @@
 <script src="{$baseUrl}/plugins/themes/agriprima/js/slider.js" type="text/javascript"></script>
 <div id="sliderFrame">
 <div id="ashslider">
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="#htmlcaption1" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="Multiple Animations!" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="Pure Javascript & CSS. No jQuery. No flash." /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="#htmlcaption2" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="Mouse-Over to Pause"/></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="Departement Home" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="Agriculture Research" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="Plant Breeders" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="Crops Treatment" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="Horticulture"/></a>
 </div>
 </div>
 </div>

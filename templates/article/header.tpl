@@ -88,18 +88,20 @@
 <body id="pkp-{$pageTitle|replace:'.':'-'}" class="article">
 
 <div id="container">
-<div id="header">
+<div id="header" role="banner">
 <div id="headerTitle">
-<figure>
+
 {if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
+<figure>
 	<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogoAltText != ''}alt="{$displayPageHeaderLogoAltText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
 </figure>
 {/if}
 <h1>
+	
 {if $displayPageHeaderTitle && is_array($displayPageHeaderTitle)}
 	<figure>
-		<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" width="{$displayPageHeaderTitle.width|escape}" height="{$displayPageHeaderTitle.height|escape}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} />
-	</figure>	
+	<img src="{$publicFilesDir}/{$displayPageHeaderTitle.uploadName|escape:"url"}" {if $displayPageHeaderTitleAltText != ''}alt="{$displayPageHeaderTitleAltText|escape}"{else}alt="{translate key="common.pageHeader.altText"}"{/if} />
+	</figure>
 {elseif $displayPageHeaderTitle}
 	{$displayPageHeaderTitle}
 {elseif $alternatePageHeader}
@@ -109,8 +111,20 @@
 {else}
 	{$applicationName}
 {/if}
-
+	
 </h1>
+<link href='https://fonts.google.com rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{$baseUrl}/plugins/themes/agriprima/css/slider.css" type="text/css" />
+<script src="{$baseUrl}/plugins/themes/agriprima/js/slider.js" type="text/javascript"></script>
+<div id="sliderFrame">
+<div id="ashslider">
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="Departement Home" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="Agriculture Research" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="Plant Breeders" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="Crops Treatment" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="Horticulture"/></a>
+</div>
+</div>
 </div>
 </div>
 {include file="common/navbar.tpl"}
