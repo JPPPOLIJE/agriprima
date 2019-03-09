@@ -2,17 +2,17 @@
 
 *Curenly in Pre-Release Version*
 
-Responsive & modern theme Untuk OJS Ver.2.4.8-4, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
+Responsive & modern theme Untuk OJS Ver.2.4.8-4, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING) oleh pengguna / pengelola jurnal lainnya, tanpa **GARANSI** dari kami.
 
 ## How to Install
 
 Berikut cara instalasi Theme Agriprima:
-1. Download release [`V.1.0.0`](https://agriprima.polije.ac.id)
+1. Download release [`V.1.0.0-Pre`](https://github.com/JPPPOLIJE/agriprima/releases/tag/V.1.0.0-Pre)
 2. Extrak file .zip / .tar.gz 
 3. Rename folder utama menjadi **`agriprima`**
 4. Upload folder ke **`plugins/theme`** (direktori instalasi OJS anda)
 
-## Merubah Scheme Warna dan Gambar Profil  
+## How to Change Color Scheme  
 
 Anda dapat merubah warna theme sesuai selera anda melalui edit file **`agriprima/css/screen.css`**, berikut contoh skema (code) warna:
 
@@ -67,8 +67,5 @@ nav a:active {
 ```
 ## Contact Support For Installation and Customize
 
-**Afif Sugi Hendrianto**
-
-[afif_sugi@polije.ac.id](mailto:afif_sugi@polije.ac.id)
-
-[Politeknik Negeri Jember](https://www.polije.ac.id)
+**Afif Sugi Hendrianto** [(afif_sugi@polije.ac.id)](mailto:afif_sugi@polije.ac.id)\
+[Jurusan Produksi Pertanian](https://jpp.polije.ac.id) | [Politeknik Negeri Jember](https://www.polije.ac.id)
