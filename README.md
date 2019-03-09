@@ -1,8 +1,8 @@
-# Agriprima Theme for OJS 2.4.8-3
+# Agriprima Theme for OJS 2.4.8-4
 
-*Curenly in BETA Version*
+*Curenly in Pre-Release Ver*
 
-Responsive & modern theme Untuk OJS Ver.2.4.8-3, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
+Responsive & modern theme Untuk OJS Ver.2.4.8-4, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
 
 ## How to Install
 
@@ -14,7 +14,7 @@ Berikut cara instalasi Theme Agriprima:
 
 ## Merubah Scheme Warna dan Gambar Profil  
 
-The colors are determined primarily by the link colors. To change the colors, use the following as a pattern for your own theme.css file:
+Anda dapat merubah warna theme sesuai selera anda melalui editing screen.css file, berikut contoh skema (code) warna:
 
 ```
 /* Main Link Colors */
