@@ -14,7 +14,7 @@ Berikut cara instalasi Theme Agriprima:
 
 ## Merubah Scheme Warna dan Gambar Profil  
 
-Anda dapat merubah warna theme sesuai selera anda melalui editing screen.css file, berikut contoh skema (code) warna:
+Anda dapat merubah warna theme sesuai selera anda melalui edit file **`agriprima/css/screen.css`**, berikut contoh skema (code) warna:
 
 ```
 /* Main Link Colors */
@@ -65,4 +65,8 @@ nav a:active {
 	color: white;
 }
 ```
+## Contact Support For Installation and Customize
 
+**`Afif Sugi Hendrianto`**
+[afif_sugi@polije.ac.id](afif_sugi@polije.ac.id)
+[Politeknik Negeri Jember](https://www.polije.ac.id)
