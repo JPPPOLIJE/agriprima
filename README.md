@@ -1,6 +1,6 @@
 # Agriprima Theme for OJS 2.4.8-4
 
-*Curenly in Pre-Release Ver*
+*Curenly in Pre-Release Version*
 
 Responsive & modern theme Untuk OJS Ver.2.4.8-4, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING), tanpa **GARANSI** dari kami.
 
@@ -67,6 +67,8 @@ nav a:active {
 ```
 ## Contact Support For Installation and Customize
 
-**`Afif Sugi Hendrianto`**
-[afif_sugi@polije.ac.id](afif_sugi@polije.ac.id)
+**Afif Sugi Hendrianto**
+
+[afif_sugi@polije.ac.id](mailto:afif_sugi@polije.ac.id)
+
 [Politeknik Negeri Jember](https://www.polije.ac.id)
