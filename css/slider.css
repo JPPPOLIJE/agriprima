@@ -1,12 +1,12 @@
 #sliderFrame {
 	position:relative;
-	width:1400px;
+	width:1920px;
 	margin: 0;
 	float: right;
 }
         
 #ashslider {
-    width:1400px;height:200px;/* Make it the same size as your images */
+    width:1920px;height:200px;/* Make it the same size as your images */
 	background:#fff url(img/loading.gif) no-repeat 50% 50%;
 	position:relative;
 	margin:0 auto;/*make the image slider center-aligned */
@@ -45,7 +45,7 @@ div.mc-caption {
 	font: bold 16px/20px Arial;
 	color:#fff;
 	z-index:4;
-	padding:10px 5% 10px 65%;
+	padding:10px 2% 10px 72%;
 	text-align:center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -59,8 +59,8 @@ div.mc-caption a:hover {
 
 /* ------ built-in navigation bullets wrapper ------*/
 div.navBulletsWrapper  {
-	top:187px; 
-	left:76.5%; /* Its position is relative to the #slider */
+	top: 185px;
+    left: 82.5%; /* Its position is relative to the #slider */
 	width:150px;
 	background:none;
 	position:relative;

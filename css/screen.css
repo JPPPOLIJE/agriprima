@@ -749,8 +749,10 @@ ul.navMenu li:hover{
 
 #header h1, #header img{
   vertical-align:middle;
-  display:inline-block;
   float:left;
+  position: absolute;
+  display: block;
+  z-index: 10;
 }
 
 #headerTitle{
@@ -1358,7 +1360,7 @@ table.single{
   text-transform:capitalize;
   margin-top:1em;
   padding:.25em;
-  background-color:red;
+  background-color:#eaf1f5;
 }
 
 #systemConfiguration table tr{
