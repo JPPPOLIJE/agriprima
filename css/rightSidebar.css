@@ -1,0 +1,248 @@
+#rightSidebar {
+    width: 20%;
+}
+
+#main {
+    width: 79%;
+    float: left;
+}
+
+@media screen and (max-width:1440px){
+  body{
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width:1366px){
+  body{
+    font-size:14px;
+  }
+
+  #footer-middle{
+  	font-size:0.75em;
+  }
+}
+
+@media screen and (max-width:1140px){
+	#sidebar{
+		float:right;
+		width:27%;
+		margin left:1%;
+	}
+
+	#leftSidebar{
+		width:100%;
+		float:right;
+		margin-right:0;
+	}
+
+	#rightSidebar{
+		width:100%;
+		float:right;
+		margin-right:0;
+	}
+
+	#main{
+		width:72%;
+		float:left;
+		margin-left:0%;
+		margin-right:1%;
+	}
+	
+	#footer-middle{
+		margin: 0 1%;
+	}
+
+	#footer-col0{
+		display:none; 
+	}
+
+	#footer-col1 {
+    	width: 32%;
+     	margin-right: 1%;
+	}
+
+	#footer-col2 {
+   	 	width: 24%;
+    	margin-right: 1%;
+	}
+
+	#footer-col3 {
+    	width: 15%;
+   	 	margin-right: 1%;
+	}
+
+	#footer-col4 {
+    	width: 24%;
+	}
+
+	#fullNav{
+		display:none;
+	}
+
+	#mobileNav{
+		display:block;
+	}
+
+	#mobileNav .navicon{
+		display:none;
+	}
+
+	#mobileNav a.navicon{
+		display:inline-block;
+		float:left;
+		height:20px;
+		width:34px;
+		margin:5px 30px;
+		border-top:12px double #FFF;
+		border-bottom:4px solid #FFF;
+		font-size:0;
+		text-align:right;
+	}
+
+	#mobileNav b.navicon{
+		display:inline-block;
+		float:left;
+		height:20px;
+		width:100px;
+		margin:5px 0px;
+		border-top:0;
+		border-bottom:0;
+		font-size:1.3em;
+		font-weight:bold;
+		text-align:left;
+		color:white;
+	}
+
+	#mobileNav .menu{
+		display:none;
+		width:100%;
+		float:left;
+		margin-left:0;
+		margin-right:0;
+	}
+
+	#mobileNav .menu li{
+		clear:both;
+		display:block;
+		width:100%;
+		text-align:center;
+		border-bottom:1px solid #68b8ec;
+		text-transform:uppercase;
+		letter-spacing:.2em;
+		margin:2px 0;
+		padding:6px 0 6px 8px;
+		border-right:0;
+	}
+
+	#mobileNav .menu li:last-child{
+		border:none;
+	}
+
+	#mobileNav .menu li a{
+		display:block;
+		color:white;
+	}
+
+	#mobileNav .menu li a:visited{
+		color:white;
+	}
+
+	#mobileNav .menu li a:focus{
+		color:black;
+	}
+
+	#mobileNav .menu li a:hover{
+		color:black;
+	}
+
+	#mobileNav .menu li a:active{
+		color:#266BA8;
+	}
+
+	#mobileNav .menu li #searchbar{
+		display:block;
+		width:100%;
+		float:left;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:900px){
+  	body{
+  		font-size:13px;
+  		line-height:1.2em;
+  	}
+}
+
+@media screen and (max-width:840px){
+  	body{
+  		font-size:13px;
+  		line-height:1.2em;
+  	}
+}
+
+@media screen and (max-width:740px){
+ 	#footer-middle{
+		margin: 0 1%;
+	}
+
+	#footer-col1 {
+    	width: 37%;
+     	margin-right: 1%;
+	}
+
+	#footer-col2 {
+   	 	width: 28%;
+    	margin-right: 1%;
+	}
+
+	#footer-col3 {
+    	display: none;
+	}
+
+	#footer-col4 {
+    	width: 30%;
+	}
+}
+
+@media screen and (max-width:640px){
+  	#main {
+    width: 99%;
+	}
+
+  	#sidebar{
+		display:none;
+	}
+
+	#footer-col1 {
+    	width: 56%;
+    	margin-right: 1%;
+	}
+
+	#footer-col2 {
+    	display:none;
+	}
+
+	#footer-col4 {
+    	width: 40%;
+	}
+}
+
+@media screen and (max-width:575px){
+  	#footer-col1 {
+    	width: 90%;
+    	margin: 0 5%;
+	}
+
+	#footer-col4 {
+    	display: none;
+	}
+}
+
+@media screen and (max-width:400px){
+  	#footer-col1 {
+    	width: 90%;
+    	margin: 0 5%;
+	}
+}

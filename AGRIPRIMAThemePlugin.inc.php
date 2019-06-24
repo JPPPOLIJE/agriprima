@@ -21,6 +21,15 @@ class AGRIPRIMAThemePlugin extends ThemePlugin {
 	 * its category.
 	 * @return String name of plugin
 	 */
+
+	function register($category, $path) {
+		if (parent::register($category, $path)) {
+			$this->addLocaleData();
+			return true;
+		}
+		return false;
+	}
+	
 	function getName() {
 		return 'AGRIPRIMAThemePlugin';
 	}
@@ -31,10 +40,6 @@ class AGRIPRIMAThemePlugin extends ThemePlugin {
 
 	function getDescription() {
 		return 'agriprima layout';
-	}
-
-	function getLocaleFilename($locale) {
-		return null; // No locale data
 	}
 
 	function activate(&$templateMgr) {
