@@ -6,10 +6,11 @@ Responsive & modern theme Untuk OJS Ver.2.4.8-x, Theme ini dibuat dan digunakan 
 
 ## Agriprima Theme Demo
 Anda dapat mencoba menggunakan Agriprima Theme melalui URL: [https://adp1.polije.ac.id](https://adp1.polije.ac.id)\
-Login pada website dan gunakan akun administrator berikut:/
-Username: [admin]
-Password: [admin1234]
-
+Login pada website dan gunakan akun administrator berikut\
+```
+Username: **admin**\
+Password: **admin1234**
+```
 
 ## How to Install
 
