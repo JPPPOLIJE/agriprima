@@ -5,6 +5,7 @@
 Responsive & modern theme Untuk OJS Ver.2.4.8-x, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING) oleh pengguna / pengelola jurnal lainnya, tanpa **GARANSI** dari kami.
 
 ## Agriprima Theme Demo
+
 Anda dapat mencoba menggunakan Agriprima Theme melalui URL: [https://adp1.polije.ac.id](https://adp1.polije.ac.id)\
 Login pada website dan gunakan akun administrator berikut
 ```
@@ -19,6 +20,18 @@ Berikut cara instalasi Theme Agriprima:
 2. Extrak file .zip / .tar.gz 
 3. Rename folder utama menjadi **`agriprima`**
 4. Upload folder ke **`plugins/theme`** (direktori instalasi OJS anda)
+
+## How to Change Theme Locale  
+
+Anda dapat merubah / translate informasi header dan footer theme melalui edit file **`agriprima/locale/id_ID/locale.xml`**, dan **`agriprima/locale/en_US/locale.xml`**
+
+## How to Change Image Slider  
+
+Sesuaikan dan replace gambar slider (header theme) yang terletak pada **`agriprima/img/slider/`**, adapun spesifikasi gambar sebagai berikut:
+```
+Ektensi: .png
+Ukuran: W:1920px H:200px
+```
 
 ## How to Change Color Scheme  
 
