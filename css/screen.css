@@ -562,9 +562,11 @@ table td{
 }
 
 #sidebar #sidebarDevelopedBy{
-  background-color:transparent;
-  padding-bottom:6%;
-  margin-bottom:0%;
+  background-color: transparent;
+  padding-bottom: 1%;
+  background-image: none;
+  margin-bottom: 0%;
+  box-shadow: none;
 }
 
 #sidebar #sidebarUser{

@@ -118,11 +118,11 @@
 <script src="{$baseUrl}/plugins/themes/agriprima/js/slider.js" type="text/javascript"></script>
 <div id="sliderFrame">
 <div id="ashslider">
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="Departement Home" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="Agriculture Research" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="Plant Breeders" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="Crops Treatment" /></a>
-<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="Horticulture"/></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/1.png" alt="{translate key="plugins.theme.agriprima.caption1"}" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/2.png" alt="{translate key="plugins.theme.agriprima.caption2"}" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/3.png" alt="{translate key="plugins.theme.agriprima.caption3"}" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/4.png" alt="{translate key="plugins.theme.agriprima.caption4"}" /></a>
+<a href="#"><img src="{$baseUrl}/plugins/themes/agriprima/img/slider/5.png" alt="{translate key="plugins.theme.agriprima.caption5"}"/></a>
 </div>
 </div>
 </div>
