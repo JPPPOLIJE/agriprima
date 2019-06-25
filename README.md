@@ -1,13 +1,20 @@
-# Agriprima Theme for OJS 2.4.8-4
+# Agriprima Theme for OJS 2.4.8-x
 
-*Curenly in Pre-Release Version*
+*Now in Release Version*
 
-Responsive & modern theme Untuk OJS Ver.2.4.8-4, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING) oleh pengguna / pengelola jurnal lainnya, tanpa **GARANSI** dari kami.
+Responsive & modern theme Untuk OJS Ver.2.4.8-x, Theme ini dibuat dan digunakan untuk [Agriprima, Journal of Applied Agricultural Sciences](https://agriprima.polije.ac.id), [Politeknik Negeri Jember](https://www.polije.ac.id). Theme ini juga dapat didistribusikan / digunakan secara gratis dibawah lisensi [GNU General Public License](https://github.com/pkp/ojs/blob/master/docs/COPYING) oleh pengguna / pengelola jurnal lainnya, tanpa **GARANSI** dari kami.
+
+## Agriprima Theme Demo
+Anda dapat mencoba menggunakan Agriprima Theme melalui URL: [https://adp1.polije.ac.id](https://adp1.polije.ac.id)\
+Login pada website dan gunakan akun administrator berikut:/
+Username: [admin]
+Password: [admin1234]
+
 
 ## How to Install
 
 Berikut cara instalasi Theme Agriprima:
-1. Download release [`V.1.0.0-Pre`](https://github.com/JPPPOLIJE/agriprima/releases/)
+1. Download release [`V.1.0.0`](https://github.com/JPPPOLIJE/agriprima/releases/)
 2. Extrak file .zip / .tar.gz 
 3. Rename folder utama menjadi **`agriprima`**
 4. Upload folder ke **`plugins/theme`** (direktori instalasi OJS anda)
