@@ -21,6 +21,14 @@
   <message key="plugins.theme.agriprima.caption4">Crops Treatment</message>
   <message key="plugins.theme.agriprima.caption5">Horticulture</message>
 
+<!-- Sidebar  -->
+  <message key="plugins.theme.agriprima.focusAndScope.botton">Departement Home</message>
+  <message key="plugins.theme.agriprima.ethic.botton">Agriculture Research</message>
+  <message key="plugins.theme.agriprima.editorialTeam.botton">Plant Breeders</message>
+  <message key="plugins.theme.agriprima.plagiarism.botton">Crops Treatment</message>
+  <message key="plugins.theme.agriprima.authorGuidelines.botton">Horticulture</message>
+  <message key="plugins.theme.agriprima.order.botton">Horticulture</message>
+
 <!-- Footer Google Maps  -->
   <message key="plugins.theme.agriprima.maps">https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.442512518246!2d113.72212841538575!3d-8.158092183991236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd695b6f92a7187%3A0x6ffab1009691be7c!2sGedung+Jurusan+Produksi+Pertanian!5e0!3m2!1sid!2sid!4v1544809003003</message>
 
